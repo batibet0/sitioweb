@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitarra</title>
+    <link rel="stylesheet" href="styleg.css">
+</head>
+<body>
+   <header>
+       <h1>Guitarra</h1>
+   </header>
+   <br>
+   <br>
+   <br>
+   <main>
+       <div>
+           <img src="guitarra.png" alt="Guitarra">
+       </div>
+       <div class="overlay-container">
+           
+       </div>
+       <div class="buttons-container">
+           <table class="buttons-table">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+               <tr>
+                   <td><button onclick="showOverlay('sc.png', 'single-coil')">Single Coil</button></td>
+                   <td><button onclick="showOverlay('p90.png', 'P90')">P90</button></td>
+                   <td><button onclick="showOverlay('hambucker.png', 'Humbucker')">Humbucker</button></td>
+                   <td><button onclick="showOverlay('boton_4.png', 'FLOYD')">FLOYD ROSE TREMOLO</button></td>
+                   <td><button onclick="showOverlay('boton_5.png', 'TREMOLO')">TREMOLO</button></td>
+               </tr>
+           </table>
+       </div>
+       <button class="cerrar-btn" id="cerrarImagenBtn" onclick="hideOverlay()">Cerrar</button> <!-- Botón para cerrar la imagen -->
+       <div class="texto-izquierda"></div> <!-- Espacio para mensajes a la izquierda -->
+       <div class="texto-derecha"></div> <!-- Espacio para mensajes a la derecha -->
+   </main>
+   <footer>
+    
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

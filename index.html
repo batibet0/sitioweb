@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COTIZER INSTRUMENT - Iniciar Sesión</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="header">
+        <img src="LOGO2.png" alt="Cotizer Instrument" class="header-logo">
+    </header>
+    <main class="main">
+        <div class="login-container">
+            <form class="login-form" action="procesar-login.php" method="POST">
+                <h2 class="login-title">Iniciar Sesión</h2>
+                <div class="input-group">
+                    <label for="username" class="login-label">Usuario</label>
+                    <input type="text" id="username" name="username" class="login-input" required>
+                </div>
+                <div class="input-group">
+                    <label for="password" class="login-label">Contraseña</label>
+                    <input type="password" id="password" name="password" class="login-input" required>
+                </div>
+                <button type="submit" class="login-button"  >Iniciar Sesión</button>
+                <button type="button" onclick="window.location.href='menu.html'" class="continue-button">Continuar sin iniciar sesión</button>
+            </form>
+        </div>
+
+        <div class="description">
+            <p>
+                ¡COTIZER INSTRUMENTS es una plataforma para músicos que buscan comprar accesorios para sus guitarras. Aquí, los usuarios pueden personalizar un instrumento virtual según sus preferencias. La plataforma proporciona información detallada sobre cada accesorio, permitiendo a los usuarios explorar y comprender sus capacidades. Además, proporciona enlaces de descarga seguros para cada accesorio, brindando una experiencia de compra confiable y segura!
+            </p>
+        </div>
+
+        <div class="image-carousel">
+            <div class="image-wrapper">
+                <img src="c1.png" alt="Imagen 1">
+            </div>
+            <div class="image-wrapper">
+                <img src="c2.png" alt="Imagen 2">
+            </div>
+            <div class="image-wrapper">
+                <img src="c3.png" alt="Imagen 3">
+            </div>
+            <div class="image-wrapper">
+                <img src="c2.png" alt="Imagen 4">
+            </div>
+            <div class="image-wrapper">
+                <img src="c1.png" alt="Imagen 5">
+            </div>
+        </div>
+    
+    </main>
+    <footer class="footer">
+        <a href="https://www.instagram.com/cotizer_instruments?igsh=MWhicHVlMW0wY25ldA==" class="social-link"><img src="i_logo.png" alt="Instagram" class="social-icon"></a>
+        <a href="https://www.facebook.com/share/gcPY8QzMXzDYmwax/?mibextid=qi2Omg" class="social-link"><img src="f_logo.png" alt="Facebook" class="social-icon"></a>
+    </footer>
+    
+</body>
+</html>
